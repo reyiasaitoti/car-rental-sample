@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent-A-Ride - Contact</title>
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header>
+    <h1>Rent-A-Ride</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us for any questions or inquiries. We're happy to help!</p>
+      <ul>
+        <li><i class="fas fa-phone"></i> Phone: (+254) 794-928779</li>
+        <li><i class="fas fa-envelope"></i> Email: <a href="mailto:rentaride@example.com">reyiabenjamin8@gmail.com</a></li>
+        <li><i class="fas fa-map-marker-alt"></i> Address: 123 Rental Road, Anton, CA 12345</li>
+      </ul>
+    </section>
+
+    <section class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form action="contact-form-handler.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Rent-A-Ride. All rights reserved.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your_fontawesome_kit_id.js" crossorigin="anonymous"></script>
+</body>
+</html>

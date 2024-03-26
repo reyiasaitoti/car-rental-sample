@@ -1,0 +1,113 @@
+/* Basic styles */
+body {
+  background-color: cornflowerblue;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: darkgray;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Header Styles */
+header h1 {
+  font-size: 2em;
+}
+
+/* Banner Styles */
+.banner {
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 1em;
+}
+
+.banner a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Highlights Styles */
+.highlights {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.highlights h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.highlights ul {
+  padding: 0;
+  margin: 0;
+}
+
+.highlights li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.highlights li i {
+  margin-right: 10px;
+  color: #0095ff;
+}
+
+/* Testimonials Styles */
+.testimonials {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.testimonials p {
+  font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}

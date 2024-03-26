@@ -1,0 +1,102 @@
+/* Basic Styles (assuming these are already defined in your main style.css) */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Blog Header Styles */
+.blog-header {
+  text-align: center;
+}
+
+.blog-header h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.blog-header p {
+  font-size: 1em;
+}
+
+/* Blog Posts Styles */
+.blog-posts {
+  display: flex; /* Adjust for multiple posts per row if needed */
+  flex-wrap: wrap; /* Allow posts to wrap to next line */
+  gap: 20px;
+}
+
+/* Assuming you'll use the provided blog post structure */
+.blog-post {
+  width: calc(33% - 20px); /* Adjust width for desired layout */ /* 33% for 3 posts per row */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline from post link */
+  color: #333; /* Set default text color */
+  transition: transform 0.3s ease; /* Add hover effect (optional) */
+}
+
+.blog-post:hover {
+  transform: translateY(-5px); /* Add slight hover transform (optional) */
+}
+
+.blog-post img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.blog-post h4 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.blog-post p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.post-meta {
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+.post-meta span {
+  margin-right: 10px;
+}

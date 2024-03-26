@@ -1,0 +1,108 @@
+/* Basic Styles (assuming these are already defined in your main style.css) */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: burlywood;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* Services Banner Styles */
+.services-banner {
+  text-align: center;
+}
+
+.services-banner h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.services-banner p {
+  font-size: 1em;
+}
+
+/* Services Grid Styles */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.service-card h4 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.service-card p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* Additional Services Styles */
+.additional-services {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.additional-services ul {
+  padding: 0;
+  margin: 0;
+}
+
+.additional-services li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.additional-services li i {
+  margin-right: 10px;
+  color: #0095ff;
+}
